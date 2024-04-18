@@ -1,8 +1,15 @@
+//css
+import styles from './styles.module.css'
+
 const Footer = () => {
     return(
-        <div>
-            <h1>testando Footer</h1>
-        </div>
+    <footer>
+      <div className={styles.footerContainer}>
+        <hr />
+        <p>CreativeNexus ©2024</p>
+      </div>
+    </footer>
+
     )
 }
 

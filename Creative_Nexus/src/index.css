@@ -14,18 +14,9 @@
   --button-background: rgba(0, 0, 0, 0.10);
   --button-hover: rgba(0, 0, 0, 0.20);
   --nav-background: rgba(47, 47, 47, 0.25);
-}
-
-.light-theme:root {
-    --background-color: #f3f3f3;
-    --card-background: #6D00BF;
-    --text-color: #FFF;
-    --text-color-hover: #a42dff;
-    --text-muted: rgba(0, 0, 0, 0.3);
-    --hr-color: rgba(0, 0, 0, 0.1);
-    --button-background: rgba(0, 0, 0, 0.10);
-    --button-hover: rgba(0, 0, 0, 0.20);
-    --nav-background: rgba(47, 47, 47, 0.25);
+  --text-color-hover: #a42dff;
+  --text-muted: rgba(0, 0, 0, 0.3);
+  --nav-background: rgba(47, 47, 47, 0.25);
 }
 
 

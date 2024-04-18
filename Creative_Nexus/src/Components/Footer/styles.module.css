@@ -1,0 +1,19 @@
+.footerContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footerContainer hr {
+    width: 80%;
+    background-color: var(--hr-color);
+    height: 4px;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
+  
+  .footerContainer p {
+    margin: 20px 0 40px 0;
+    color: var(--hr-color);
+  }
