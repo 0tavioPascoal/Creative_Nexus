@@ -1,24 +1,14 @@
 :root {
-  --Night: #111111;
-  --Indigo: #4A0082;
-  --Two-Indigo: #570099;
-  --white: #fff;
-  --black: #0000;
-  --footer-background: #111111;
   --background-color: #111111;
-  --details-gray:#1E1E1E;
-  --hr-color: #353535;
-  --text-color: #FBF9FC;
+  --card-background: #6D00BF;
+  --text-color: #FFF;
+  --text-color-hover: #a42dff;
   --text-muted: rgba(255, 255, 255, 0.30);
   --hr-color: rgba(255, 255, 255, 0.10);
   --button-background: rgba(0, 0, 0, 0.10);
   --button-hover: rgba(0, 0, 0, 0.20);
   --nav-background: rgba(47, 47, 47, 0.25);
-  --text-color-hover: #a42dff;
-  --text-muted: rgba(0, 0, 0, 0.3);
-  --nav-background: rgba(47, 47, 47, 0.25);
 }
-
 
 * {
   margin: 0;
