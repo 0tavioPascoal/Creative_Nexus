@@ -1,6 +1,11 @@
 //import css
 import styles from './styles.module.css'
 //svgs and logos
+import discordIcon from '../../assets/DiscordLogo.png'
+import instagramIcon from '../../assets/InstagramLogo.png'
+import youtubeIcon from '../../assets/YouTubeLogo.png'
+import creativeNexusIcon from '../../assets/CreativeNexus.png'
+
 
 export default function Home(){
     return(
@@ -44,7 +49,7 @@ export default function Home(){
                   <div className={styles.btnContainer}>
                     <a href="" className={styles.btnDiscord}>Discord</a>
                     <div className={styles.btnIcon}>
-                      <img src="../../Assets/DiscordLogo.png" />
+                      <img src={discordIcon} />
                     </div>
                   </div>
                 </div>
@@ -52,7 +57,7 @@ export default function Home(){
                   <div className={styles.btnContainer}>
                     <a className={styles.btnCoutube} href="">YouTube</a>
                     <div className={styles.btnIcon}>
-                      <img src="../../Assets/YouTubeLogo.png" />
+                      <img src={youtubeIcon} />
                     </div>
                   </div>
                 </div>
@@ -60,14 +65,14 @@ export default function Home(){
                   <div className={styles.btnContainer}>
                     <a href="" className={styles.btnInstagram}>Instagram</a>
                     <div className={styles.btnIcon}>
-                      <img src="../../Assets/InstagramLogo.png" />
+                      <img src={instagramIcon} />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className={styles.socialImg}>
-              <img src="../../Assets/CreativeNexus.png" alt="" />
+              <img src={creativeNexusIcon} />
             </div>
           </div>
         </div>
