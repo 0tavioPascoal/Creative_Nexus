@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     max-width: 100%;
-    margin-bottom: 0.5%;
+    padding: 2.5% 5%;
     background-color: transparent;
     box-shadow: var(--Two-Indigo) 0px 1px 0px 0px;
     display: flex;
