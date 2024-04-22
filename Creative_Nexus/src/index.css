@@ -1,12 +1,12 @@
 :root {
   --background-color: #111111;
-  --card-background: #6D00BF;
-  --text-color: #FFF;
+  --card-background: #6d00bf;
+  --text-color: #fff;
   --text-color-hover: #a42dff;
-  --text-muted: rgba(255, 255, 255, 0.30);
-  --hr-color: rgba(255, 255, 255, 0.10);
-  --button-background: rgba(0, 0, 0, 0.10);
-  --button-hover: rgba(0, 0, 0, 0.20);
+  --text-muted: rgba(255, 255, 255, 0.3);
+  --hr-color: rgba(255, 255, 255, 0.1);
+  --button-background: rgba(0, 0, 0, 0.2);
+  --button-hover: rgba(0, 0, 0, 0.1);
   --nav-background: rgba(47, 47, 47, 0.25);
 }
 
@@ -19,8 +19,8 @@
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   max-width: 100%;
   background-color: var(--background-color);
-  color: var(--text-color)
+  color: var(--text-color);
 }
