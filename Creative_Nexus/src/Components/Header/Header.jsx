@@ -26,7 +26,7 @@ const Header = () => {
                 <NavLink to='/contact'>Contato</NavLink>
               </li>
             </ul>
-            </div>
+          </div>
   
     )
 }
